@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--Alan Sans Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Rom Africa Safaris - Discover the Magic of Kenya</title>
+  </head>
+  <body>
+    <nav class="nav__header">
+      <div>
+        <div class="nav__logo">
+          <a href="#" class="logo">Rom Africa Safaris</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">DESTINATIONS</a></li>
+        <li><a href="#tour">SAFARI PACKAGES</a></li>
+        <li><a href="#package">WHY CHOOSE US</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#">BOOK NOW</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+         <!-- <p>Welcome to Authentic Kenyan Adventures</p>  -->
+          <h1>Experience the Heart of Africa with Rom Africa Safaris</h1>
+          <div class="header__btns">
+            <button class="btn">Start Your Journey</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="header__image">
+          <img src="img/safari-vehicle.png" alt="Safari vehicle in Kenya" />
+        </div> -->
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Explore Kenya's Treasures</h2>
+      <p class="section__description">
+        From the iconic Maasai Mara to pristine coastal beaches, discover Kenya's most breathtaking destinations
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="img/masai-mara.jpg" alt="Maasai Mara National Reserve" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Maasai Mara National Reserve</h4>
+              <p>Witness the Great Migration</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              4.9
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="img/amboseli.jpg" alt="Amboseli National Park" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Amboseli National Park</h4>
+              <p>Elephants & Mount Kilimanjaro Views</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="img/diani-beach.jpg" alt="Diani Beach" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Diani Beach</h4>
+              <p>Kenya's Coastal Paradise</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="img/Mt-Kenya.jpg" alt="Mt Kenya" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Mt Kenya</h4>
+              <p>Explore Kenya's tallest mountain</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              4.9
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="img/Nairobi-National-Park.jpg" alt="Nairobi National Park" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Nairobi National Park</h4>
+              <p>Go on a safari a few minutes from the capital </p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="img/Hells-Gate.jpg" alt="Hell's Gate National Park" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Hell's Gate National Park</h4>
+              <p>Marvel at Kenya's best volcanic features</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">Tailored Safari Experiences</h2>
+      <p class="section__description">
+        Choose from our carefully crafted packages designed to showcase the best of Kenya
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-compass-3-line"></i></span>
+            <h4>Classic Safari</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-compass-3-line"></i></span>
+            <h4>3-5 Day Wildlife Adventures</h4>
+            <p>
+              Perfect for first-time visitors! Experience the Big Five in Maasai Mara 
+              or Amboseli. Includes comfortable lodge accommodation, game drives, 
+              and expert guides who share fascinating insights about Kenya's wildlife.
+            </p>
+          </div>
+        </div>
+
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-sun-line"></i></span>
+            <h4>Beach & Bush</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-sun-line"></i></span>
+            <h4>7-10 Day Combined Tours</h4>
+            <p>
+              The best of both worlds! Start with thrilling game drives in our 
+              national parks, then unwind on the pristine beaches of Diani or 
+              Watamu. Perfect blend of adventure and relaxation.
+            </p>
+          </div>
+        </div>
+
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-group-line"></i></span>
+            <h4>Cultural Immersion</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-group-line"></i></span>
+            <h4>Authentic Local Experiences</h4>
+            <p>
+              Connect with Kenya's rich heritage. Visit Maasai villages, learn 
+              traditional crafts, taste authentic cuisine, and participate in 
+              cultural ceremonies. Create memories that last a lifetime.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+        
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="img/safari-sunset.jpg" alt="Safari sunset in Kenya" />
+      </div>
+      <div class="showcase__content">
+        <h4>Why Choose Rom Africa Safaris?</h4>
+        <p>
+          As a locally-owned company, we bring you the authentic Kenya that only 
+          locals know. Our passionate guides are born storytellers who transform 
+          your safari into an unforgettable journey of discovery. We prioritize 
+          sustainable tourism that benefits local communities and protects our 
+          precious wildlife.
+        </p>
+        <p>
+          From the moment you land in Nairobi to your final sunset game drive, 
+          we handle every detail with care. Our small group sizes ensure 
+          personalized attention, while our carefully selected accommodations 
+          blend comfort with authentic African charm. Join us and discover why 
+          our guests become part of the Rom Africa Safaris family.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Plan Your Safari
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+   <!--  <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>500+</h4>
+        <p>Happy Travelers</p>
+      </div>
+      <div class="banner__card">
+        <h4>98%</h4>
+        <p>5-Star Reviews</p>
+      </div>
+      <div class="banner__card">
+        <h4>24/7</h4>
+        <p>Local Support</p>
+      </div>
+    </section> -->
+
+    <section class="section__container discover__container">
+      <h2 class="section__header">
+        Your Safari, Your Story
+      </h2>
+      <p class="section__description">
+        Every Rom Africa Safari is uniquely yours - tailored to your dreams and designed to exceed expectations
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-shield-check-line"></i></span>
+          <h4>Safe & Secure</h4>
+          <p>
+            Travel with confidence knowing you're in expert hands. Our experienced 
+            guides prioritize your safety while ensuring you don't miss a moment 
+            of the magic. All vehicles are regularly maintained and equipped with 
+            safety essentials.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-leaf-line"></i></span>
+          <h4>Eco-Conscious Travel</h4>
+          <p>
+            We're committed to preserving Kenya's natural beauty for future 
+            generations. Our tours support conservation efforts and local 
+            communities, ensuring your adventure makes a positive impact on 
+            the places and people you visit.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-vip-crown-line"></i></span>
+          <h4>Personalized Service</h4>
+          <p>
+            No two travelers are alike, and neither are our safaris. From dietary 
+            preferences to photography interests, we customize every aspect of 
+            your journey. Our team is available 24/7 to ensure your comfort 
+            and satisfaction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Rom Africa Safaris</a>
+          </div>
+          <p>
+            Your trusted partner for authentic Kenyan adventures. Creating 
+            unforgettable safari experiences that connect you with the wild 
+            heart of Africa.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#!"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="ri-whatsapp-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Safari Packages</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Travel Tips</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>+254 700 123 456
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-line"></i></span>
+                info@romsafaris.co.ke
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Nairobi, Kenya
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Newsletter</h4>
+          <form action="#!">
+            <input type="email" placeholder="Your email address" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Rom Africa Safaris. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </body>
+</html>
